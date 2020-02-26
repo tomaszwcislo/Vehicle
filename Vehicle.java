@@ -18,7 +18,6 @@ public class Vehicle {
 
     private float calculateRange() {
         float range = fuelcap / lkm * 100;
-        // zaokrąglanie do 2 miesjc po przecinku
         range *=100;
         range = Math.round(range);
         range /=100;
